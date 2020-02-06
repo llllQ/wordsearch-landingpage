@@ -26,11 +26,24 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
+    .secret {
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+
+    .secret:hover {
+      background-color: rgb(8, 189, 23);
+      box-shadow: 6px 6px black;
+    }
+
     div {
       padding-top: 25%;
       height: 100%;
       width: 100%;
-    //   box-shadow: 1px 1px #202020;
+      //   box-shadow: 1px 1px #202020;
       -webkit-user-select: none; /* Safari */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* IE10+/Edge */

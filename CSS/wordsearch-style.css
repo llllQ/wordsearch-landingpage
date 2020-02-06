@@ -42,6 +42,17 @@
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.landing .grid-container .secret {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.landing .grid-container .secret:hover {
+  background-color: #08bd17;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
 .landing .grid-container div {
   padding-top: 25%;
   height: 100%;
