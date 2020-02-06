@@ -83,4 +83,11 @@
     background-color: #ff0015;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .landing .grid-container {
+    height: 30vh;
+    width: 30vh;
+  }
+}
 /*# sourceMappingURL=wordsearch-style.css.map */
