@@ -4,7 +4,12 @@ const addAnimation = () => {
     var index = 0;
     cells.forEach((cell) => {
         index += 0.2;
-        cell.style.animation = "highlightFade 0.2s forwards " + (index) + "s";
+        if(cell.classList.contains("dark")){
+            cell.style.animation = "highlightFadeVert 0.2s forwards " + (index) + "s";
+        }else {
+            cell.style.animation = "highlightFade 0.2s forwards " + (index) + "s";
+        }
+        
         console.log(cell);
     });
     vertCells.forEach((cell) => {
