@@ -30,41 +30,45 @@
       padding-top: 25%;
       height: 100%;
       width: 100%;
+    //   box-shadow: 1px 1px #202020;
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+/Edge */
+      user-select: none; /* Standard */
     }
   }
 }
 
-
 @keyframes highlightFade {
-    0% {
-      background-color: transparent;
-      
-    }
-
-    100% {
-      background-color: rgb(255, 0, 21);
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
+  0% {
+    background-color: transparent;
   }
 
-  @keyframes highlightFadeVert {
-    from {
-      background-color: transparent;
-    }
-    to {
-      background-color: rgb(255, 0, 21);
-      font-weight: bold;
-      font-size: 1.2rem;
+  100% {
+    background-color: rgb(255, 0, 21);
+    box-shadow: 6px 6px black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes highlightFadeVert {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: darkred;
+    box-shadow: 6px 6px black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .landing {
+    .grid-container {
+      height: 30vh;
+      width: 30vh;
     }
   }
-
-  
-  @media screen and (max-width: 900px) {
-    .landing {
-        .grid-container {
-            height: 30vh;
-            width: 30vh;
-        }
-    }
 }
