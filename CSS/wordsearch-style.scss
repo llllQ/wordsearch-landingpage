@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: arial;
+    font-size: 1rem;
 }
 
 .landing {
@@ -30,13 +31,24 @@
             height: 100%;
             width: 100%;
         }
+    }
 
-        .highlight.pink {
-            background-color: #BA028F;
+    @keyframes highlightFade {
+        0% {
+            background-color: transparent;
         }
 
-        .highlight.red {
-            background-color: #BA0214;
+        100% {
+            background-color: rgb(255, 0, 21);
+        }
+    }
+
+    @keyframes highlightFadeVert {
+        from {
+            background-color: transparent;
+        }
+        to {
+            background-color: rgb(255, 0, 21);
         }
     }
 }

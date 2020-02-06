@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: arial;
+  font-size: 1rem;
 }
 
 .landing {
@@ -47,11 +48,39 @@
   width: 100%;
 }
 
-.landing .grid-container .highlight.pink {
-  background-color: #BA028F;
+@-webkit-keyframes highlightFade {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ff0015;
+  }
 }
 
-.landing .grid-container .highlight.red {
-  background-color: #BA0214;
+@keyframes highlightFade {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ff0015;
+  }
+}
+
+@-webkit-keyframes highlightFadeVert {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #ff0015;
+  }
+}
+
+@keyframes highlightFadeVert {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #ff0015;
+  }
 }
 /*# sourceMappingURL=wordsearch-style.css.map */
