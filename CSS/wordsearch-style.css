@@ -54,6 +54,8 @@
   }
   100% {
     background-color: #ff0015;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 }
 
@@ -63,6 +65,8 @@
   }
   100% {
     background-color: #ff0015;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 }
 
@@ -72,6 +76,8 @@
   }
   to {
     background-color: #ff0015;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 }
 
@@ -81,6 +87,8 @@
   }
   to {
     background-color: #ff0015;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 }
 
